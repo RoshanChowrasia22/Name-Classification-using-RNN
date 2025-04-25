@@ -73,7 +73,7 @@ def category_from_output(output):
 current_loss=0
 all_losses=[]
 plot_steps, print_steps = 100, 50
-n_iters = 30000
+n_iters = 50000
 # hidden1=rnn.hidden_init(1)
 # hidden2=rnn.hidden_init(2)
 for i in range(n_iters):
